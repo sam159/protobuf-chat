@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+package prototest.common.data;
+option csharp_namespace = "ProtoTest.Common.Data";
+
+message ChatMessage {
+	int32 id = 1;
+	string from = 2;
+	string msg = 3;
+}
